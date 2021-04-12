@@ -17,6 +17,136 @@ body {
 
 
 /*forms css styles*/
+section{
+    text-align: center;
+    width: 590px;
+   
+    
+}
 
+
+.form-container{
+
+    background: #F7F7F7;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+   
+         
+
+}
+
+
+
+.TrackGender {
+    display: flex;
+    text-align: left;
+    
+    
+
+
+}
+
+.conage {
+    display: flex;
+    text-align: left;
+
+}
+
+
+.name {
+    display: flex;
+    text-align: left;
+
+}
+
+.emailNumber {
+    display: flex;
+    text-align: left;
+
+}
+
+.level  {
+    display: flex;
+    text-align: left;
+
+}
+
+.status   {
+    display: flex;
+    text-align: left;
+
+}
+
+
+
+input {
+    border: steelblue solid 1px;
+    border-radius: 5px;
+    padding: 25px;
+    width: 90%;
+}
+
+select {
+    border: steelblue solid 1px;
+    border-radius: 5px;
+    padding: 25px;
+    color: #6C6C6C;
+    margin-top: 10px;
+    
+    
+}
+
+h3 {
+
+    font-size: 24px;
+    color: #6C6C6C;
+    
+}
+
+.gender {
+   
+    width: 250px;
+    text-align: right;
+  
+}
+
+
+.track {
+    width: 250px;
+}
+
+label {
+    color: #6C6C6C;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+
+textarea {
+    border: steelblue solid 1px;
+    border-radius: 5px;
+    padding: 15px;
+    color: #6C6C6C;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 520px;
+    text-align: center;
+}
+
+
+button {
+
+    background: #3773E1;
+    color: #fff;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 90px;
+    font-size: 25px;
+}
 
 /*footer css styles*/
