@@ -28,8 +28,7 @@ section{
 .form-container{
 
     background: #F7F7F7;
-    text-align: center;
-    padding: 25px;
+    padding: 25px 25px 25px 10px;
     display: flex;
     flex-direction: column;
     width: 600px;
@@ -58,7 +57,7 @@ section{
 
 .name {
     display: flex;
-    text-align: left;
+   
 
 }
 
@@ -87,6 +86,7 @@ input {
     border-radius: 5px;
     padding: 25px;
     width: 90%;
+    margin-right: 10px;
 }
 
 select {
@@ -123,6 +123,7 @@ label {
     text-align: left;
     margin-top: 10px;
     margin-left: 25px;
+   
 }
 
 textarea {
@@ -141,12 +142,16 @@ button {
 
     background: #3773E1;
     color: #fff;
-    width: 400px;
+    width: 520px;
     text-align: center;
     padding: 10px;
     border: none;
-    border-radius: 90px;
+    border-radius: 10px;
     font-size: 25px;
+    margin-top: 15px;
 }
 
+::placeholder {
+    text-align: left;
+}
 /*footer css styles*/
