@@ -12,6 +12,38 @@ body {
 
 /*navbar css styles*/
 
+nav img {
+    width: 50%;
+    height: 50%;
+}
+
+nav {
+    background-color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+a {
+    padding: 3em;
+    font-weight: 600;
+}
+
+.navbar-toggler-icon {
+    color: #fff;
+}
+
+.btn {
+    font-weight: 600;
+}
+
 
 /*tracks css styles*/
 
